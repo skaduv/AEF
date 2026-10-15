@@ -4,7 +4,7 @@
 定技术栈和模块结构，定数据归属和横切能力，排出里程碑。
 
 ## 先读
-SCOPE.md、GLOSSARY.md、.aef/state.md。
+docs/SCOPE.md、docs/GLOSSARY.md、.aef/state.md。
 
 ## 用到的技能
 aef-stack（先做）、aef-architecture、aef-data
