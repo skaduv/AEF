@@ -4,7 +4,7 @@
 数据上线后最难改。目标是让每张表有唯一主人、关系清楚、命名与 GLOSSARY 一致，并能长期演进。
 
 ## 先读
-GLOSSARY.md、GLOSSARY.md、docs/architecture.md 的“数据”一节、相关模块的 module.yaml。
+docs/GLOSSARY.md、docs/architecture.md 的“数据”一节、相关模块的 module.yaml。
 
 ## 归属
 - 每张表只属于一个模块，登记在该模块 module.yaml 的 `owns_tables`。只有 owner 模块能写；其他模块通过 owner 的 api 读写。
