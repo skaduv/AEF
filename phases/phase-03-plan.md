@@ -10,7 +10,7 @@
 aef-plan；需求不清时 aef-grill；有数据变更时 aef-data
 
 ## 产出
-tickets/NN-<标题>.md；state.md 中的本迭代票列表与阻塞关系。
+.aef/tickets/NN-<标题>.md；state.md 中的本迭代票列表与阻塞关系。
 
 ## 完成标准
 每张票一个会话能完成、验收条件可测试；用户批准。
