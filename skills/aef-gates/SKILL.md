@@ -10,12 +10,12 @@ description: 把一条可机械检查的规则变成门禁时使用，或检查�
 
 ## 形状
 ```
-gates/<name>/
+.aef/gates/<name>/
   run              # 可执行，参数为要检查的根目录，通过返回 0
   fixtures/bad/    # 至少一个违规样例
   README.md        # 规则、理由、失效条件
 ```
-`gates/run-all.sh` 先对每个门禁的 bad 样例运行，必须失败；再对仓库运行，必须通过。
+`.aef/gates/run-all.sh` 先对每个门禁的 bad 样例运行，必须失败；再对仓库运行，必须通过。
 
 ## 优先实现的门禁
 1. 类型检查、lint、格式
