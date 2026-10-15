@@ -6,6 +6,7 @@
 <一句话：这个系统是什么、给谁用>。范围见 docs/SCOPE.md，术语见 docs/GLOSSARY.md，架构见 docs/architecture.md，技术栈与具体做法见 docs/stack.md。
 
 ## 工作方式
+- 这个项目做什么只以 docs/SCOPE.md 为准。docs/SCOPE.md 为空时，问用户想做什么，不要推测或推荐产品类型。技能里出现的表名、模块名、业务名词都只是举例。
 - 会话开始先读本文件和 .aef/state.md，按其中指定的阶段（.aef/phases/）工作。
 - 一个会话做一个单元（一张票）；结束前更新 .aef/state.md。
 - 小改动（一两个文件、无数据和接口变化）直接改 + 测试，不走切票。
