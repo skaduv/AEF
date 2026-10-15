@@ -10,8 +10,8 @@ AGENTS.md、.aef/state.md、用户给的材料。
 aef-grill
 
 ## 产出
-- SCOPE.md：用户与场景、MVP 功能、明确不做
-- GLOSSARY.md：核心名词定义 + 禁用同义词；名词之间的关系（一对多、多对多）
+- docs/SCOPE.md：用户与场景、MVP 功能、明确不做
+- docs/GLOSSARY.md：核心名词定义 + 禁用同义词；名词之间的关系（一对多、多对多）
 
 ## 完成标准
 用户能一句话说清 MVP；MVP 涉及的名词都有定义。
